@@ -1,0 +1,25 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "description": "Description for demo",
+  "private": true,
+  "license": "UNLICENSED",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "generator-jhipster-spring-cloud-stream": "1.0.0",
+    "generator-jhipster-primeng-charts": "1.2.0",
+    "generator-jhipster-electron": "1.0.0",
+    "generator-jhipster-audit-helper": "1.0.3",
+    "generator-jhipster-stripe-payment": "1.0.9",
+    "generator-jhipster-angular-material-integration": "1.0.17",
+    "generator-jhipster-database-backup": "1.0.7",
+    "generator-jhipster-translation": "1.0.4",
+    "generator-jhipster-paypal": "1.0.5",
+    "generator-jhipster": "6.0.0-beta.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}

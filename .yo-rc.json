@@ -1,0 +1,80 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.github.duychuongvn.demo",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.0.0-beta.0",
+    "applicationType": "microservice",
+    "baseName": "demo",
+    "packageName": "com.github.duychuongvn.demo",
+    "packageFolder": "com/github/duychuongvn/demo",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MGFlNDNiY2Q4ODdiN2NkOTM4MmVlYWFkN2FhMWI2Y2VjNTRhMzIwNWEwYzdjZDBkMGQxMTMzYmM2NTA1ODE1YzIzZDRmYTliZmE0ZThlZGY4NWRiMzE4NmM2N2M1YTY0MGEyM2RjOGY5NTYyMzlhZWVlMWEwMDQ1NWQ2ZmFiODQ=",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-spring-cloud-stream",
+        "version": "1.0.0"
+      },
+      {
+        "name": "generator-jhipster-primeng-charts",
+        "version": "1.2.0"
+      },
+      {
+        "name": "generator-jhipster-electron",
+        "version": "1.0.0"
+      },
+      {
+        "name": "generator-jhipster-audit-helper",
+        "version": "1.0.3"
+      },
+      {
+        "name": "generator-jhipster-stripe-payment",
+        "version": "1.0.9"
+      },
+      {
+        "name": "generator-jhipster-angular-material-integration",
+        "version": "1.0.17"
+      },
+      {
+        "name": "generator-jhipster-database-backup",
+        "version": "1.0.7"
+      },
+      {
+        "name": "generator-jhipster-translation",
+        "version": "1.0.4"
+      },
+      {
+        "name": "generator-jhipster-paypal",
+        "version": "1.0.5"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
